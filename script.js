@@ -15,13 +15,13 @@ function changeWords(el) {
   document.getElementById("myHeader").innerHTML = "They are all #1";
 }
 function changeImage(el){
-	document.getElementById("lafcphoto").src = "image/fans.PNG";
+	document.getElementById("lafcphoto").src = "image/fans.png";
 }
 function allPhotos(el){
-	document.getElementById("lafcphoto").src = "image/one.PNG";
-	document.getElementById("bearphoto").src = "image/one.PNG";
-	document.getElementById("threephoto").src = "image/one.PNG";
-	document.getElementById("cardphoto").src = "image/one.PNG";
-	document.getElementById("seriesphoto").src = "image/one.PNG";
-	document.getElementById("heatphoto").src = "image/one.PNG";
+	document.getElementById("lafcphoto").src = "image/one.png";
+	document.getElementById("bearphoto").src = "image/one.png";
+	document.getElementById("threephoto").src = "image/one.png";
+	document.getElementById("cardphoto").src = "image/one.png";
+	document.getElementById("seriesphoto").src = "image/one.png";
+	document.getElementById("heatphoto").src = "image/one.png";
 }

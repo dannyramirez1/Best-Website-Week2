@@ -17,9 +17,18 @@ function changeWords(el) {
 function changeImage(el){
 	document.getElementById("lafcphoto").src = "image/fans.png";
 }
+function winningPhoto(el){
+	document.getElementById("seriesphoto").src = "image/congrats.png";
+}
+function finalsPhoto(el){
+	document.getElementById("threephoto").src = "image/finals.png";
+}
+function teamPhoto(el){
+	document.getElementById("usa").src = "image/usateam.png";
+}
 function allPhotos(el){
 	document.getElementById("lafcphoto").src = "image/one.png";
-	document.getElementById("bearphoto").src = "image/one.png";
+	document.getElementById("usa").src = "image/one.png";
 	document.getElementById("threephoto").src = "image/one.png";
 	document.getElementById("cardphoto").src = "image/one.png";
 	document.getElementById("seriesphoto").src = "image/one.png";
